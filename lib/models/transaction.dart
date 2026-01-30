@@ -1,0 +1,25 @@
+
+import 'expense_category.dart';
+
+enum TransactionType {
+  expense,
+  income,
+}
+
+class Transaction {
+  final String id;
+  final String title;
+  final double amount;
+  final DateTime date;
+  final TransactionType type;
+  final ExpenseCategory category;
+
+  Transaction({
+    required this.id,
+    required this.title,
+    required this.amount,
+    required this.date,
+    required this.type,
+    required this.category,
+  });
+}
