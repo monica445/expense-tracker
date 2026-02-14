@@ -15,11 +15,12 @@ class Transaction {
   final ExpenseCategory category;
 
   Transaction({
-    required this.id,
+    String? id,
     required this.title,
     required this.amount,
-    required this.date,
+    DateTime? date,
     required this.type,
     required this.category,
-  });
+  }) : id = id ?? DateTime.now().millisecondsSinceEpoch.toString(),
+       date = date ?? DateTime.now();
 }

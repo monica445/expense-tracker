@@ -29,7 +29,7 @@ class _DashboardState extends State<Dashboard> {
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.w700,
-                          color: Color(0xFF2563EB),
+                          color: Colors.black,
                         ),
                       ),
                       const SizedBox(height: 4),
@@ -156,7 +156,7 @@ class _DashboardState extends State<Dashboard> {
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w600,
-                            color: const Color(0xFF2563EB),
+                            color: Colors.black
                           ),
                         ),
                         Container(
@@ -210,7 +210,7 @@ class _DashboardState extends State<Dashboard> {
                           style: TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: const Color(0xFF1A237E),
+                            color:  Colors.black,
                           ),
                         ),
                         Text(

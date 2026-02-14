@@ -1,3 +1,4 @@
+import 'package:expense_tracker/screens/add_transaction.dart';
 import 'package:expense_tracker/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,7 @@ class _AppState extends State<App> {
       case Screen.home:
         return Dashboard();
       case Screen.add:
-        return const Center(child: Text('Add Transaction'));
+        return AddTransaction();
       case Screen.insights:
         return const Center(child: Text('Insights'));
     }

@@ -35,25 +35,18 @@ class Onboarding extends StatelessWidget {
 
                 const SizedBox(height: 32),
 
-                const Text(
+                Text(
                   'Track Your Spending Effortlessly',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 26,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFF2563EB),
-                  ),
+                  style: Theme.of(context).textTheme.titleLarge,
                 ),
 
                 const SizedBox(height: 12),
 
-                const Text(
+                Text(
                   'Manage your finances easily using our intuitive and friendly interface',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: Color(0xFF424242),
-                  ),
+                  style: Theme.of(context).textTheme.bodyMedium,
                 ),
 
                 const Spacer(),
